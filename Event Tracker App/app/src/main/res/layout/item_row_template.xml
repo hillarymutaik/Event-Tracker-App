@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/itemLinearLayout"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@color/white">
+
+  <ImageButton
+    android:id="@+id/editButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edit_item"
+    android:contentDescription="@string/edit_vector_description"
+    android:minWidth="48dp"
+    android:minHeight="48dp" />
+
+  <TextView
+    android:id="@+id/textViewItemId"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone" />
+
+  <TextView
+    android:id="@+id/textViewUserEmail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone" />
+
+  <TextView
+    android:id="@+id/textViewItemDesc"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:fontFamily="@font/roboto_medium"
+    android:gravity="center_vertical"
+    android:hint="@string/row_item_desc_hint"
+    android:padding="5dp"
+    android:textSize="16sp" />
+
+  <TextView
+    android:id="@+id/textViewItemQty"
+    android:layout_width="72dp"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:fontFamily="@font/roboto_medium"
+    android:gravity="center_horizontal|center_vertical"
+    android:hint="@string/row_item_qty_hint"
+    android:textSize="16sp" />
+
+  <TextView
+    android:id="@+id/textViewItemUnit"
+    android:layout_width="48dp"
+    android:layout_height="match_parent"
+    android:fontFamily="@font/roboto_medium"
+    android:gravity="center_horizontal|center_vertical"
+    android:hint="@string/row_item_unit_hint"
+    android:textSize="16sp" />
+
+  <ImageButton
+    android:id="@+id/deleteButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/delete_item"
+    android:contentDescription="@string/del_vector_description"
+    android:minWidth="48dp"
+    android:minHeight="48dp" />
+
+</LinearLayout>
