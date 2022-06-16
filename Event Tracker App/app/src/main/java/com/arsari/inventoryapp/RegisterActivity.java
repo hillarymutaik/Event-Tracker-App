@@ -1,12 +1,5 @@
 package com.arsari.inventoryapp;
 
-/*
- * Arturo Santiago-Rivera (asantiago@arsari.com)
- * Programmer | Web Analytics Specialist
- * Refactor of SNHU Final Project
- * CS-360-X6386 Mobile Architect & Programming 21EW6
- */
-
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;

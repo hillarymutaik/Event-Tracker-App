@@ -16,21 +16,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-/**
- * Activity Login java code.
- * <p>
- * The LoginActivity class include the funcionality for the login activity
- * layout. It add funcionality to the buttons in the layout, verify any
- * field is not empty, call the RegisterActivity, authenticate the user input
- * with the records in database, call and build the pasword forget alert
- * dialog, and empty fields after user is succesfully authenticate.
- * <p>
- * This is the starting class wwhen the program execute.
- *
- * @author	Arturo Santiago-Rivera <i>asantiago@arsari.com</i>
- * @course	CS-360-X6386 Mobile Architect & Programming 21EW6
- * @college	Southern New Hampshire University
- */
 public class LoginActivity extends AppCompatActivity {
 
 	Activity activity;
