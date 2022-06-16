@@ -1,4 +1,4 @@
-package com.arsari.inventoryapp;
+package com.eventtracker.eventtrackerapp;
 
 import android.Manifest;
 import android.content.Context;

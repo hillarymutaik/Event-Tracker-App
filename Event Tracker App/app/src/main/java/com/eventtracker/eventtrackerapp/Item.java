@@ -1,4 +1,4 @@
-package com.arsari.inventoryapp;
+package com.eventtracker.eventtrackerapp;
 
 public class Item {
 

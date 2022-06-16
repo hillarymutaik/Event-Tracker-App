@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.arsari.inventoryapp">
+    package="com.eventtracker.eventtrackerapp">
 
     <uses-permission android:name="android.permission.SEND_SMS" />
 
@@ -13,16 +13,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InventoryApp">
         <activity
-            android:name=".AddItemActivity"
+            android:name="com.eventtracker.eventtrackerapp.AddItemActivity"
             android:exported="true" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.eventtracker.eventtrackerapp.RegisterActivity"
             android:exported="true" />
         <activity
-            android:name=".ItemsListActivity"
+            android:name="com.eventtracker.eventtrackerapp.ItemsListActivity"
             android:exported="true" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.eventtracker.eventtrackerapp.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
