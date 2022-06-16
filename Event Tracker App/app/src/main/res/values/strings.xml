@@ -8,7 +8,7 @@
     <string name="user_email">Enter Email Address*</string>
     <string name="user_pass">Enter Password*</string>
     <string name="signup_button">Sign Up</string>
-    <string name="additem_activity_title">add new item</string>
+    <string name="additem_activity_title">Add new item</string>
     <string name="item_description_hint">Enter Item Description</string>
     <string name="column_item_description_heading">Description</string>
     <string name="column_item_quantity_heading">Quantity</string>
@@ -27,8 +27,8 @@
     <string name="sms_button_label">SMS</string>
     <string name="decrease_label_description">Decrease Item by One</string>
     <string name="increase_label_description">Increase Item by One</string>
-    <string name="login_activity_title">login</string>
-    <string name="register_activity_title">register</string>
+    <string name="login_activity_title">Login</string>
+    <string name="register_activity_title">Register</string>
     <string name="signout_menu_item">Sign Out</string>
     <string name="item_description_label">Item Description</string>
     <string name="item_quantity_label">Item Quantity</string>

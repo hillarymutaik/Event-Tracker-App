@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/app_icon" />
+        app:srcCompat="@drawable/event" />
 
     <TextView
         android:id="@+id/textViewLoginTitle"
@@ -67,9 +67,9 @@
 
   <Button
     android:id="@+id/signinButton"
-    android:layout_width="120dp"
-    android:layout_height="48dp"
-    android:layout_marginTop="32dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
     android:layout_marginEnd="64dp"
     android:layout_marginRight="64dp"
     android:background="@drawable/round_corners_btn"
@@ -81,11 +81,14 @@
 
   <Button
     android:id="@+id/registerButton"
-    android:layout_width="120dp"
-    android:layout_height="48dp"
-    android:layout_marginStart="64dp"
-    android:layout_marginLeft="64dp"
-    android:layout_marginTop="32dp"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:layout_marginEnd="64dp"
+    android:layout_marginRight="64dp"
+    
+  
     android:background="@drawable/round_corners_btn"
     android:text="@string/register_button"
     android:textSize="16sp"

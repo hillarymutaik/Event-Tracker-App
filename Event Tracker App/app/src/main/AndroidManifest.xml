@@ -7,9 +7,9 @@
     <application
         android:allowBackup="true"
         android:fullBackupContent="true"
-        android:icon="@mipmap/tracker"
+        android:icon="@mipmap/event"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/tracker"
+        android:roundIcon="@mipmap/event"
         android:supportsRtl="true"
         android:theme="@style/Theme.EventTrackerApp">
         <activity
