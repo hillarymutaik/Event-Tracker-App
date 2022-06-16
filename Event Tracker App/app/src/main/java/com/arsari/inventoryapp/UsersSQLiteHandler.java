@@ -10,16 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * User SQLite Handler java code.
- * <p>
- * The UsersSQLiteHandler class include the funcionality to manage
- * all the CRUD operations to of the user database.
- *
- * @author	Arturo Santiago-Rivera <i>asantiago@arsari.com</i>
- * @course	CS-360-X6386 Mobile Architect & Programming 21EW6
- * @college	Southern New Hampshire University
- */
 public class UsersSQLiteHandler extends SQLiteOpenHelper {
 
 	private static final int DATABASE_VERSION = 1;
