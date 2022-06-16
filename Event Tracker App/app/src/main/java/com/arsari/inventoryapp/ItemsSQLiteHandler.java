@@ -10,16 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * Items SQLite Handler java code.
- * <p>
- * The ItemsSQLiteHandler class include the funcionality to manage
- * all the CRUD operations the user can perform in the app.
- *
- * @author	Arturo Santiago-Rivera <i>asantiago@arsari.com</i>
- * @course	CS-360-X6386 Mobile Architect & Programming 21EW6
- * @college	Southern New Hampshire University
- */
 public class ItemsSQLiteHandler extends SQLiteOpenHelper {
 
 	private static final int DATABASE_VERSION = 1;

@@ -12,19 +12,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.concurrent.atomic.AtomicReference;
 
-/**
- * Add Item Activity java code.
- * <p>
- * The AddItemActivity class include the funcionality for the add item activity
- * layout. It add funcionality to the buttons in the layout, insert a new item
- * into the database, and verify any field is not empty.
- * <p>
- * This class is called from by the ItemsListActivity.
- *
- * @author	Arturo Santiago-Rivera <i>asantiago@arsari.com</i>
- * @course	CS-360-X6386 Mobile Architect & Programming 21EW6
- * @college	Southern New Hampshire University
- */
 public class AddItemActivity extends AppCompatActivity {
 
     String EmailHolder, DescHolder, QtyHolder, UnitHolder;

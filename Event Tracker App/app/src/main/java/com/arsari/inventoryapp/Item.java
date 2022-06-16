@@ -1,15 +1,5 @@
 package com.arsari.inventoryapp;
 
-/**
- * Items java code.
- * <p>
- * The Item class include the funcionality to model the
- * constructor to manage the item table in the database.
- *
- * @author	Arturo Santiago-Rivera <i>asantiago@arsari.com</i>
- * @course	CS-360-X6386 Mobile Architect & Programming 21EW6
- * @college	Southern New Hampshire University
- */
 public class Item {
 
     int id;

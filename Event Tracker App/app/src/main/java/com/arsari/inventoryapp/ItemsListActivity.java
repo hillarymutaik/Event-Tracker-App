@@ -21,20 +21,6 @@ import androidx.core.content.ContextCompat;
 
 import java.util.ArrayList;
 
-/**
- * Item List Activity java code.
- * <p>
- * The ItemsListActivity class include the funcionality for the items activity
- * layout. It add funcionality to the buttons in the layout, call the SMS
- * notification AD, call the add item activity, call the delete items AD, look
- * for the total of items in the database, and allow the user logout
- * <p>
- * This is the second class executed after user is authenticated.
- *
- * @author	Arturo Santiago-Rivera <i>asantiago@arsari.com</i>
- * @course	CS-360-X6386 Mobile Architect & Programming 21EW6
- * @college	Southern New Hampshire University
- */
 public class ItemsListActivity extends AppCompatActivity {
 
     TextView UserName, TotalItems;

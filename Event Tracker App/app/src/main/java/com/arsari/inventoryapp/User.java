@@ -1,15 +1,5 @@
 package com.arsari.inventoryapp;
 
-/**
- * User java code.
- * <p>
- * The User class include the funcionality to model the
- * constructor to manage the user table in the database.
- *
- * @author	Arturo Santiago-Rivera <i>asantiago@arsari.com</i>
- * @course	CS-360-X6386 Mobile Architect & Programming 21EW6
- * @college	Southern New Hampshire University
- */
 public class User {
 
     int id;

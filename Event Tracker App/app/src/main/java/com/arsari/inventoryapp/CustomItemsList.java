@@ -16,20 +16,6 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-/**
- * Custom Items List Activity java code.
- * <p>
- * The CustomItemsList class include the funcionality to populate
- * the items from the database into the ItemListActivity. Add the
- * row funcionality to edit and delete an item, and to change item
- * quantity. It also call and build the edit item alert dialog.
- * <p>
- * This class generate the row in the ItemsListActivity.
- *
- * @author	Arturo Santiago-Rivera <i>asantiago@arsari.com</i>
- * @course	CS-360-X6386 Mobile Architect & Programming 21EW6
- * @college	Southern New Hampshire University
- */
 public class CustomItemsList extends BaseAdapter {
 
     private final Activity context;
