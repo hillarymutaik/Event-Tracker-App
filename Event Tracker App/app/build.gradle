@@ -1,21 +1,17 @@
 plugins {
     id 'com.android.application'
 }
-
 android {
     compileSdk 30
-
     defaultConfig {
         applicationId defaultApplicationId
         minSdk 16
         targetSdk 30
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
     }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -28,9 +24,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
-
 dependencies {
-
     implementation 'androidx.appcompat:appcompat:1.3.1'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
