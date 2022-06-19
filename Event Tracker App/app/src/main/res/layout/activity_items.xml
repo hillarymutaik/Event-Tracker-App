@@ -39,7 +39,7 @@
 
       <TextView
           android:id="@+id/qtyColumn"
-          android:layout_width="72dp"
+          android:layout_width="68dp"
           android:layout_height="match_parent"
           android:background="@drawable/border"
           android:fontFamily="@font/roboto_medium"
@@ -51,7 +51,7 @@
 
       <TextView
         android:id="@+id/unitColumn"
-        android:layout_width="48dp"
+        android:layout_width="50dp"
         android:layout_height="match_parent"
         android:background="@drawable/border"
         android:fontFamily="@font/roboto_medium"
