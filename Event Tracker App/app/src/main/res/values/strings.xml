@@ -55,7 +55,7 @@
   <string name="ad_delete_dialog_no_button">No</string>
   <string name="ad_delete_title">Delete All Items</string>
   <string name="ad_delete_msg">Are you sure you want to delete all database items?</string>
-  <string name="forgot_popup_title">forgot password</string>
+  <string name="forgot_popup_title">Forgot Password</string>
   <string name="forgot_hint">Enter Phone Number</string>
   <string name="forgot_password">Forgot Password?</string>
   <string name="get_button">Get</string>
